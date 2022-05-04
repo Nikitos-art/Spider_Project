@@ -6,7 +6,7 @@ from scrapy.http import HtmlResponse
 from instaparser.instaparser.items import InstaparserItem
 from urllib.parse import urlencode
 from copy import deepcopy
-
+#
 
 with open('log_info.txt', 'r') as f:
    pwd = f.readline()
